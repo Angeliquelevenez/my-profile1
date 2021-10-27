@@ -1,0 +1,116 @@
+.img-circle {
+	width: 100px;
+}
+
+
+/*Colors and front*/
+
+body{
+	background: #F1DEDE;
+	color: rgb(50, 50, 50);
+	font-family:  lora, serif;
+	font-size: 17px;
+}
+
+h1,h2{font-family:dancing,cursive;}
+
+h1{
+	color: #BD4F6C;
+	font-size: 38px;
+	font-weight: 500;
+
+}
+h2{
+	color: #2e2e3a;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+a{
+	font-family: roboto;
+	font-size: 18px;
+	text-decoration: none;
+	color: #7180ac;
+	font-weight: 200;
+}
+a:hover {
+	color: #bd4f6c;
+}
+
+
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 100px auto;
+}
+
+
+.card-white{
+background: whitesmoke;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+margin: 20px;
+text-align: center;
+}
+
+.img-circle{
+	border-radius: 50px;
+}
+
+.btn-blue{
+background-color:#7180ac ;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: whitesmoke;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+ul {
+list-style-type: none;
+}
+
+.list-inline li {
+display: inline; 
+padding 10px;
+}
+
+.logo {
+	height: 30px;
+}
+
+.logo:hover {
+	height: 35px;
+}
+
+
+/*Design adjustemeent*/
+
+#introduction p{
+	margin-bottom: 30px;
+}
+
+
+@media (max-width: 760px){
+.container{
+	width: 600xp
+}
+}
+
+@media (max-width: 540px){
+	.container {
+		width: 400px;
+}
+}
+
